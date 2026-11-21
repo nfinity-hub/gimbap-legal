@@ -47,8 +47,7 @@ Protection Regulation (GDPR). This policy applies to the mobile game <strong>Gim
 
 <h2>1. Information We Process</h2>
 
-<p>The Service <strong>does not collect information that directly identifies you</strong>, such as your
-name, email address, or phone number. We process the following:</p>
+<p>The Service processes the information below for authentication, saved progress, purchase validation, analytics and advertising. Email addresses provided during account linking or customer support may also be processed.</p>
 
 <div class="wrap">
 <table>
@@ -57,7 +56,7 @@ name, email address, or phone number. We process the following:</p>
     <td>Anonymous identifier</td>
     <td>A randomly generated identifier (GUID) created the first time you open the app. This also covers
         the random app-instance identifier assigned by our analytics tool (Firebase Analytics).
-        It cannot be used to identify you personally.</td>
+        It may be linked to your account and gameplay records.</td>
     <td>Generated automatically on first launch</td>
   </tr>
   <tr>
@@ -67,8 +66,7 @@ name, email address, or phone number. We process the following:</p>
   </tr>
   <tr>
     <td>Approximate location</td>
-    <td>Your country or city, estimated from your IP address. <strong>We do not store the IP address
-        itself or your precise (GPS) location.</strong></td>
+    <td>Your country or city, estimated from your IP address. Advertising SDKs may also process IP addresses separately from Firebase Analytics. The app does not request precise GPS location.</td>
     <td>Collected automatically during play (Firebase Analytics)</td>
   </tr>
   <tr>
@@ -92,12 +90,13 @@ name, email address, or phone number. We process the following:</p>
     <td>A per-device identifier used to deliver notifications. It cannot be used to identify you personally.</td>
     <td>Issued if you allow notifications. Not used if you turn them off in settings</td>
   </tr>
+  <tr><td>Account information</td><td>Firebase user ID, linked sign-in provider identifiers, and an email shared through Sign in with Apple (including a private relay address)</td><td>During app use and account linking</td></tr>
 </table>
 </div>
 
 <p><strong>We do not collect the following:</strong></p>
 <ul>
-  <li>Name, email address, phone number, or date of birth</li>
+  <li>Phone number or date of birth. Emails provided for account linking or support may be processed for those purposes.</li>
   <li>Persistent hardware identifiers such as IMEI. Advertising SDK identifiers in ad-supported versions are described below.</li>
   <li>Precise location data (such as GPS), contacts, photos, or call logs</li>
   <li>Payment details such as credit card numbers. Payments are processed by Google Play or the
@@ -115,6 +114,7 @@ name, email address, or phone number. We process the following:</p>
 </ul>
 <p>Versions that include advertising use Google AdMob to display ads. The advertising SDK may process the information described below for advertising, measurement and fraud prevention. Data from versions without advertising is not used for advertising purposes.</p>
 <h3>Additional processing in ad-supported versions</h3>
+<p>The game includes interstitial ads and optional rewarded ads. No ads are requested for confirmed full-game purchasers. Purchasing does not delete previously processed advertising data.</p>
 <p>The Google Mobile Ads SDK may collect and share with Google the device IP address (which may be used to estimate approximate location), app launches, taps and ad views, diagnostic and performance information, advertising identifiers (ADID / IDFA), and other device or app identifiers. Actual collection and personalization depend on operating-system permissions, user consent and SDK settings. Access to IDFA on iOS follows the operating system tracking permission.</p>
 <p>Google processing and retention are described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/ads">Google advertising information</a>.</p>
 
@@ -152,8 +152,8 @@ outside your country as part of this.</p>
     <td>Google LLC</td>
     <td>United States</td>
     <td>Data storage and processing, usage analytics, app distribution, crash reporting, notification delivery, and AdMob advertising, measurement and fraud prevention in ad-supported versions</td>
-    <td>All data listed in Section 1</td>
-    <td>Until the end of the service agreement, or the period in Section 4</td>
+    <td>Applicable data listed in Sections 1 and 2</td>
+    <td>Until the end of the service agreement, or the period in Section 4. Separately controlled advertising data follows Google and the relevant advertising partner’s retention policies.</td>
   </tr>
   <tr>
     <td>Apple Inc.</td>
@@ -203,7 +203,7 @@ fulfilled. Electronically stored data is permanently erased in a way that cannot
 <p>The Service automatically collects gameplay records. You can review what is collected on the consent
 screen shown the first time you open the app, and collection stops when you delete the app.</p>
 
-<p>In ad-supported versions, you can manage consent through the privacy choices presented in the app. You can also change advertising preferences and reset or limit advertising identifiers in your device settings, including the iOS tracking permission. Contact the email below to request a change to your privacy choices or ask questions.</p>
+<p>In ad-supported versions, you can manage consent through Google UMP privacy messages. Where a privacy-options entry point is required, you can revisit advertising privacy choices from the app settings. Availability depends on region and consent status. Some data may still be processed for limited ads after personalised ads are declined. You can also change advertising preferences and reset or limit advertising identifiers in your device settings, including the iOS tracking permission. Contact the email below to request a change to your privacy choices or ask questions.</p>
 
 <h2>11. Children</h2>
 <p>The Service is <strong>not directed at children under 13</strong>, and we do not knowingly collect
@@ -237,7 +237,7 @@ address above. We will respond promptly.</p>
 
 <h2>14. Changes to This Policy</h2>
 <p>If this policy changes, we will post the change in the app or on this page. Where the change is
-significant, we will ask for your consent again the next time you open the app.</p>
+significant, we will provide additional notice or obtain consent where required by applicable law.</p>
 
 <p class="meta" style="margin-top:36px">
 Last updated: 21 November 2026<br>
